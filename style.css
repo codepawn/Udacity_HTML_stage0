@@ -1,6 +1,31 @@
-.divforvi {
-    background-color: rgb(86, 76, 221);
+* {
+    outline: 1px solid red !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
 }
-.spanforvi {
-    background-color: rgb(40, 169, 200);
+.divexample {
+    background-color: #C5CAE9;
+}
+.spanexample {
+    background-color: #E8EAF6;
+}
+.title {}
+.lesson {
+    background-color: #3F51B5;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+}
+.concept {
+    background-color: #7986CB;
+    border-radius: 4px;
+    padding: 4px;
+    color: black;
+    margin: 10px;
+}
+.flexzone {
+    display: flex;
 }
